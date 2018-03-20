@@ -74,3 +74,8 @@ h2 {
 }
 
 /*--------------------Generelt--------------------*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
