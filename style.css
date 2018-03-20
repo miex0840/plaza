@@ -1,1 +1,74 @@
 /*---------------------Styletile--------------------*/
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin: 10px 10px;
+    line-height: 1.3;
+}
+
+h1 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    color: #FFCCC1;
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.5em;
+}
+
+/*--bokse--*/
+
+.boks {
+
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;
+    border: 5px solid black;
+    margin-bottom: 3px;
+    text-align: center;
+    line-height: 15vw;
+    border-radius: 50px;
+}
+
+#boks1 {
+
+    background-color: #000000;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+#boks2 {
+
+    background-color: #8C8C8C;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+#boks3 {
+
+    background-color: #D6D6D3;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+#boks4 {
+
+    background-color: #FFFFFF;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+#boks5 {
+
+    background-color: #FFCCC1;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
