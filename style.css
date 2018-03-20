@@ -24,8 +24,8 @@ h2 {
 .boks {
 
     display: inline-block;
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     border: 5px solid black;
     margin-bottom: 3px;
     text-align: center;
@@ -44,7 +44,7 @@ h2 {
 #boks2 {
 
     background-color: #8C8C8C;
-    color: black;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
 }
@@ -52,7 +52,7 @@ h2 {
 #boks3 {
 
     background-color: #D6D6D3;
-    color: black;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
 }
