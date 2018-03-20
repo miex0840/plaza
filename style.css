@@ -1,6 +1,5 @@
 /*---------------------Styletile--------------------*/
 
-<<<<<<< HEAD
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
@@ -71,11 +70,7 @@ h2 {
     background-color: #FFCCC1;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-=======
-/*----------------------Generelt--------------------*/
-
-.sectionwrapper {
-    display: flex;
->>>>>>> origin/master
+    font-size:
 }
+
+/*--------------------Generelt--------------------*/
