@@ -1,8 +1,6 @@
-* {
+/** {
     outline: 1px dashed magenta;
-}
-
-
+}*/
 
 /*---------------------Styletile--------------------*/
 
@@ -87,8 +85,19 @@ h2 {
 
 /*--------------------Generelt--------------------*/
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: white;
+}
+
+
 header {
-    background-color: #414142;
+    background-color: #3F3F40;
 }
 
 img {
@@ -111,7 +120,7 @@ header img {
 
 nav a {
     display: inline-block;
-    width: 100px;
+    width: 120px;
     text-align: center;
     margin: 0.5em;
     padding: 0.5em;
@@ -146,7 +155,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #414142;
+    background-color: #3F3F40;
     padding: 0.5em;
     text-align: center;
 }
@@ -162,7 +171,7 @@ footer img {
 
 .column_narrow {
     flex-basis: 80px;
-    flex-grow: 1;
+    flex-grow: 0.5;
     background-color: #969696;
     padding: 1em;
 }
@@ -210,16 +219,26 @@ footer img {
     text-decoration: underline;
 }
 
+
 #ure a:hover {
     text-decoration: underline;
 }
 
 /*----------- Kontakt -------------- */
 
-#kontakt .column_wide img {
-    margin: 5px;
-    margin-bottom: -2px;
+#kontakt {
+    color: white;
 }
+
+#kontakt .column_narrow {
+    flex-basis: 250px;
+}
+
+#kontakt .column_wide {
+    flex-basis: 400px;
+}
+
+#kontakt .column_wide img {}
 
 #kontakt li {
     line-height: 1.6;
@@ -252,7 +271,7 @@ footer img {
 
 /*---------------------Media queries-------------------*/
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 413px) {
     nav {
         flex-direction: column;
     }
@@ -274,13 +293,29 @@ footer img {
     }
 }
 
+@media screen and (min-width: 595px) {
+    #kontakt .column_narrow ~ .column_narrow {
+        margin-left: 1em;
+    }
+}
 
+@media screen and (min-width: 700px) {
+    section {
+        width: calc(90% - 2em);
+        max-width: 1000px;
+        padding: 1em;
+    }
+
+    main {
+        background-color: #dedede;
+    }
+
+}
 
 @media screen and (max-width: 979px) {
     #kontakt .column_wide {
         flex-wrap: wrap;
         flex-basis: 989px;
-        flex-grow: 1;
     }
 }
 
