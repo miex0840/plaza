@@ -266,14 +266,12 @@ footer img {
 }
 
 #kontakt .column_narrow {
-    flex-basis: 250px;
+    flex-basis: 400px;
 }
 
 #kontakt .column_wide {
     flex-basis: 400px;
 }
-
-#kontakt .column_wide img {}
 
 #kontakt li {
     line-height: 1.6;
